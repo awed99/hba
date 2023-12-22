@@ -1,0 +1,125 @@
+{
+  "..\\helpers\\importJS.js -> ../public/assets/js/main.js": {
+    "id": "cAMi",
+    "files": [
+      "static/chunks/9.520085f7ff11d135c563.js"
+    ]
+  },
+  "..\\helpers\\importJS.js -> ../public/assets/vendor/aos/aos.js": {
+    "id": "2Anh",
+    "files": [
+      "static/chunks/10.0db6cb5c8330fb718180.js"
+    ]
+  },
+  "..\\helpers\\importJS.js -> ../public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js": {
+    "id": "NlV/",
+    "files": [
+      "static/chunks/8.6153d684526e34206fca.js"
+    ]
+  },
+  "..\\helpers\\importJS.js -> ../public/assets/vendor/glightbox/js/glightbox.min.js": {
+    "id": "OFRp",
+    "files": [
+      "static/chunks/8764aea244c622a0157f9491e5f453c9d6ed3716.39c521601465b9ad30b9.js"
+    ]
+  },
+  "..\\helpers\\importJS.js -> ../public/assets/vendor/isotope-layout/isotope.pkgd.min.js": {
+    "id": "IxrA",
+    "files": [
+      "static/chunks/b637e9a5.8da1e74c41c4f1c6ebba.js",
+      "static/chunks/7.d3d652a5626edf16cba5.js"
+    ]
+  },
+  "..\\helpers\\importJS.js -> ../public/assets/vendor/php-email-form/validate.js": {
+    "id": "7Szc",
+    "files": [
+      "static/chunks/11.226ffe7a574c36ff3db4.js"
+    ]
+  },
+  "..\\helpers\\importJS.js -> ../public/assets/vendor/purecounter/purecounter_vanilla.js": {
+    "id": "E5Q/",
+    "files": [
+      "static/chunks/8764aea244c622a0157f9491e5f453c9d6ed3716.39c521601465b9ad30b9.js"
+    ]
+  },
+  "..\\helpers\\importJS.js -> ../public/assets/vendor/swiper/swiper-bundle.min.js": {
+    "id": "ht25",
+    "files": [
+      "static/chunks/12.7dd539a0dea2414d2ed3.js"
+    ]
+  },
+  "_app.js -> ../public/assets/js/main.js": {
+    "id": "cAMi",
+    "files": [
+      "static/chunks/9.520085f7ff11d135c563.js"
+    ]
+  },
+  "_app.js -> ../public/assets/vendor/aos/aos.js": {
+    "id": "2Anh",
+    "files": [
+      "static/chunks/10.0db6cb5c8330fb718180.js"
+    ]
+  },
+  "_app.js -> ../public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js": {
+    "id": "NlV/",
+    "files": [
+      "static/chunks/8.6153d684526e34206fca.js"
+    ]
+  },
+  "_app.js -> ../public/assets/vendor/php-email-form/validate.js": {
+    "id": "7Szc",
+    "files": [
+      "static/chunks/11.226ffe7a574c36ff3db4.js"
+    ]
+  },
+  "_index.js -> ../public/assets/js/main.js": {
+    "id": "cAMi",
+    "files": [
+      "static/chunks/9.520085f7ff11d135c563.js"
+    ]
+  },
+  "_index.js -> ../public/assets/vendor/aos/aos.js": {
+    "id": "2Anh",
+    "files": [
+      "static/chunks/10.0db6cb5c8330fb718180.js"
+    ]
+  },
+  "_index.js -> ../public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js": {
+    "id": "NlV/",
+    "files": [
+      "static/chunks/8.6153d684526e34206fca.js"
+    ]
+  },
+  "_index.js -> ../public/assets/vendor/glightbox/js/glightbox.min.js": {
+    "id": "OFRp",
+    "files": [
+      "static/chunks/8764aea244c622a0157f9491e5f453c9d6ed3716.39c521601465b9ad30b9.js"
+    ]
+  },
+  "_index.js -> ../public/assets/vendor/isotope-layout/isotope.pkgd.min.js": {
+    "id": "IxrA",
+    "files": [
+      "static/chunks/b637e9a5.8da1e74c41c4f1c6ebba.js",
+      "static/chunks/7.d3d652a5626edf16cba5.js"
+    ]
+  },
+  "_index.js -> ../public/assets/vendor/php-email-form/validate.js": {
+    "id": "7Szc",
+    "files": [
+      "static/chunks/11.226ffe7a574c36ff3db4.js"
+    ]
+  },
+  "_index.js -> ../public/assets/vendor/purecounter/purecounter_vanilla.js": {
+    "id": "E5Q/",
+    "files": [
+      "static/chunks/8764aea244c622a0157f9491e5f453c9d6ed3716.39c521601465b9ad30b9.js"
+    ]
+  },
+  "_index.js -> ../public/assets/vendor/swiper/swiper-bundle.min.js": {
+    "id": "ht25",
+    "files": [
+      "static/chunks/commons.ca0a85853ebf2c4718d8.js",
+      "static/chunks/12.7dd539a0dea2414d2ed3.js"
+    ]
+  }
+}
