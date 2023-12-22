@@ -1,17 +1,17 @@
 import { useEffect } from 'react'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
+// import { Inter } from 'next/font/google'
 
-// import '@/public/assets/vendor/purecounter/purecounter_vanilla.js'
-// import '@/public/assets/vendor/aos/aos.js'
-// import '@/public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js'
-// import '@/public/assets/vendor/glightbox/js/glightbox.min.js'
-// import '@/public/assets/vendor/isotope-layout/isotope.pkgd.min.js'
-// import '@/public/assets/vendor/swiper/swiper-bundle.min.js'
-// import '@/public/assets/vendor/php-email-form/validate.js'
-// import '@/public/assets/js/main.js'
+// import '../public/assets/vendor/purecounter/purecounter_vanilla.js'
+// import '../public/assets/vendor/aos/aos.js'
+// import '../public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js'
+// import '../public/assets/vendor/glightbox/js/glightbox.min.js'
+// import '../public/assets/vendor/isotope-layout/isotope.pkgd.min.js'
+// import '../public/assets/vendor/swiper/swiper-bundle.min.js'
+// import '../public/assets/vendor/php-email-form/validate.js'
+// import '../public/assets/js/main.js'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
@@ -50,21 +50,21 @@ export default function Home() {
 
   const initTerminal = async () => {
       const PureCounter = async () => {
-         await import('@/public/assets/vendor/purecounter/purecounter_vanilla.js')
+         await import('../public/assets/vendor/purecounter/purecounter_vanilla.js')
       }
-      const AOS = await import('@/public/assets/vendor/aos/aos.js')
-      await import('@/public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')
+      const AOS = await import('../public/assets/vendor/aos/aos.js')
+      await import('../public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')
       const GLightbox = async () => {
-         await import('@/public/assets/vendor/glightbox/js/glightbox.min.js')
+         await import('../public/assets/vendor/glightbox/js/glightbox.min.js')
       }
       const Isotope =  async () => {
-        await import('@/public/assets/vendor/isotope-layout/isotope.pkgd.min.js')
+        await import('../public/assets/vendor/isotope-layout/isotope.pkgd.min.js')
       }
       const Swiper =  async () => {
-        await import('@/public/assets/vendor/swiper/swiper-bundle.min.js')
+        await import('../public/assets/vendor/swiper/swiper-bundle.min.js')
       }
-      await import('@/public/assets/vendor/php-email-form/validate.js')
-      await import('@/public/assets/js/main.js')
+      await import('../public/assets/vendor/php-email-form/validate.js')
+      await import('../public/assets/js/main.js')
 
       
 

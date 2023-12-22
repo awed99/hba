@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  webpack5: false,
   reactStrictMode: false,
   // output: 'export',
   eslint: {
