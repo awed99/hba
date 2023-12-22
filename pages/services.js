@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
 
-import Header from '@/components/header'
-import Footer from '@/components/footer'
-import Isotope from '@/public/assets/vendor/isotope-layout/isotope.pkgd.min.js'
-// const Isotope = React.lazy(() => import('@/public/assets/vendor/isotope-layout/isotope.pkgd.min.js'))
-
-const inter = Inter({ subsets: ['latin'] })
+import Header from '../components/header'
+import Footer from '../components/footer'
+import Isotope from '../public/assets/vendor/isotope-layout/isotope.pkgd.min.js'
+// const Isotope = React.lazy(() => import('../public/assets/vendor/isotope-layout/isotope.pkgd.min.js'))
 
 export default function Services() {
 

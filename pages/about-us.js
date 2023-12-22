@@ -1,12 +1,9 @@
 import { useEffect } from 'react'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
 
-import Header from '@/components/header'
-import Footer from '@/components/footer'
-import { importJS } from '@/helpers/importJS'
-
-const inter = Inter({ subsets: ['latin'] })
+import Header from '../components/header'
+import Footer from '../components/footer'
+import { importJS } from '../helpers/importJS'
 
 export default function AboutUs() {
 

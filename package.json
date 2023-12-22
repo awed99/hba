@@ -4,23 +4,22 @@
   "private": false,
   "scripts": {
     "dev": "next dev -p 50011",
-    "build": "next build --profile",
+    "build": "next build",
     "export": "next export",
     "start": "next start",
-    "start2": "node app.js",
+    "start2": "node app.js --max-old-space-size=1000",
     "lint": "next lint"
   },
   "dependencies": {
     "jquery": "^3.7.1",
-    "next": "14.0.4",
-    "react": "^18",
-    "react-dom": "^18"
+    "next": "^11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "tailwindcss": "^3.4.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0"
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2"
   }
 }

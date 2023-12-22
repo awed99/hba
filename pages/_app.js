@@ -1,20 +1,20 @@
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
 
-import '@/styles/globals.css'
-import '@/public/assets/vendor/aos/aos.css'
-import '@/public/assets/vendor/bootstrap/css/bootstrap.min.css'
-import '@/public/assets/vendor/bootstrap-icons/bootstrap-icons.css'
-import '@/public/assets/vendor/boxicons/css/boxicons.min.css'
-import '@/public/assets/vendor/glightbox/css/glightbox.min.css'
-import '@/public/assets/vendor/remixicon/remixicon.css'
-import '@/public/assets/vendor/swiper/swiper-bundle.min.css'
-import '@/public/assets/css/style.css'
+import '../styles/globals.css'
+import '../public/assets/vendor/aos/aos.css'
+import '../public/assets/vendor/bootstrap/css/bootstrap.min.css'
+import '../public/assets/vendor/bootstrap-icons/bootstrap-icons.css'
+import '../public/assets/vendor/boxicons/css/boxicons.min.css'
+import '../public/assets/vendor/glightbox/css/glightbox.min.css'
+import '../public/assets/vendor/remixicon/remixicon.css'
+import '../public/assets/vendor/swiper/swiper-bundle.min.css'
+import '../public/assets/css/style.css'
 
-import PureCounter from '@/public/assets/vendor/purecounter/purecounter_vanilla.js'
-import GLightbox from '@/public/assets/vendor/glightbox/js/glightbox.min.js'
-import Swiper from '@/public/assets/vendor/swiper/swiper-bundle.min.js'
-import Isotope from '@/public/assets/vendor/isotope-layout/isotope.pkgd.min.js'
+import PureCounter from '../public/assets/vendor/purecounter/purecounter_vanilla.js'
+import GLightbox from '../public/assets/vendor/glightbox/js/glightbox.min.js'
+import Swiper from '../public/assets/vendor/swiper/swiper-bundle.min.js'
+import Isotope from '../public/assets/vendor/isotope-layout/isotope.pkgd.min.js'
 
 export default function App({ Component, pageProps }) {
   const [mounted, setMounted] = useState(false);
@@ -54,22 +54,22 @@ export default function App({ Component, pageProps }) {
   
     const initTerminal = async () => {
         // const PureCounter = async () => {
-        //    await import('@/public/assets/vendor/purecounter/purecounter_vanilla.js')
+        //    await import('../public/assets/vendor/purecounter/purecounter_vanilla.js')
         // }
-        const AOS = await import('@/public/assets/vendor/aos/aos.js')
-        await import('@/public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')
+        const AOS = await import('../public/assets/vendor/aos/aos.js')
+        await import('../public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')
         // const GLightbox = async () => {
-        //    await import('@/public/assets/vendor/glightbox/js/glightbox.min.js')
+        //    await import('../public/assets/vendor/glightbox/js/glightbox.min.js')
         // }
         // const Isotope =  async () => {
-        //   await import('@/public/assets/vendor/isotope-layout/isotope.pkgd.min.js')
+        //   await import('../public/assets/vendor/isotope-layout/isotope.pkgd.min.js')
         // }
         // const Swiper =  async () => {
-        //   await import('@/public/assets/vendor/swiper/swiper-bundle.min.js')
+        //   await import('../public/assets/vendor/swiper/swiper-bundle.min.js')
         // }
-        await import('@/public/assets/vendor/php-email-form/validate.js')
+        await import('../public/assets/vendor/php-email-form/validate.js')
 
-        await import('@/public/assets/js/main.js')
+        await import('../public/assets/js/main.js')
 
         
 
