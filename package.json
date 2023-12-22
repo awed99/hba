@@ -4,9 +4,10 @@
   "private": false,
   "scripts": {
     "dev": "next dev -p 50011",
-    "build": "next build",
+    "build": "next build --profile",
     "export": "next export",
     "start": "next start",
+    "start2": "node app.js",
     "lint": "next lint"
   },
   "dependencies": {
