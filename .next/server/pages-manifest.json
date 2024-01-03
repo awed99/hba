@@ -1,7 +1,13 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
+  "/_index": "pages/_index.html",
+  "/about-us": "pages/about-us.html",
+  "/anti-bribery": "pages/anti-bribery.html",
+  "/api/hello": "pages/api/hello.js",
+  "/contact-us": "pages/contact-us.html",
+  "/": "pages/index.html",
+  "/services": "pages/services.html",
   "/_error": "pages/_error.js",
-  "/services": "pages/services.js",
-  "/anti-bribery": "pages/anti-bribery.js"
+  "/404": "pages/404.html"
 }
