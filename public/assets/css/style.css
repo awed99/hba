@@ -194,7 +194,8 @@ h6 {
   margin-left: 5px;
 }
 
-.navbar>ul>li>a:before {
+.navbar>ul>li>a:before,
+.navbar>ul>li>ul>li>a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -209,6 +210,7 @@ h6 {
 
 .navbar a:hover:before,
 .navbar li:hover>a:before,
+.navbar ul li ul li a.active,
 .navbar .active:before {
   visibility: visible;
   width: 100%;
@@ -216,6 +218,7 @@ h6 {
 
 .navbar a:hover,
 .navbar .active,
+.navbar ul li a.active,
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #1BBD36;
@@ -312,7 +315,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #0C4383;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -1292,6 +1295,7 @@ section {
 .portfolio .portfolio-item .portfolio-info .preview-link,
 .portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
+  top: 25px;
   right: 50px;
   font-size: 24px;
   top: calc(50% - 18px);
@@ -1306,6 +1310,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .details-link {
   right: 15px;
+  top: 25px;
 }
 
 .portfolio .portfolio-item:hover img {

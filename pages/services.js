@@ -48,6 +48,52 @@ export default function Services() {
     execFunc()  
   })
 
+  const _supplies = [
+    { img: 'image5.png', title: 'Track Link'},
+    { img: 'image4.jpeg', title: 'Track Group Assembly'},
+    { img: 'image6.jpeg', title: 'Track Roller & Idler'},
+    { img: 'image8.png', title: 'Segmen & Sprocket'},
+    { img: 'image9.png', title: 'Forging line'},
+    { img: 'image10.png', title: 'Quenching and Tempering line'},
+    { img: 'image11.png', title: 'Induction Hardening line'},
+    { img: 'image12.png', title: 'Machining line'},
+    { img: 'image13.png', title: 'Assembly line'},
+    { img: 'image14.png', title: 'Major Machinery / Equipment'},
+    { img: 'image15.png', title: 'Gear Set'},
+    { img: 'image16.png', title: 'Mold Dev : Tooth Point'},
+    { img: 'image17.jpeg', title: 'Gland Packing'},
+    { img: 'image19.jpeg', title: 'Free Roller Conveyor'},
+    { img: 'image21.jpeg', title: 'Drive Roller Conveyor'},
+    { img: 'image23.jpeg', title: 'Accumulation Roller Conveyor'},
+    { img: 'image24.jpeg', title: 'Hose'},
+    { img: 'image23.png', title: 'HDPE Pipe'},
+    { img: 'image33.jpeg', title: 'Coupling'},
+    { img: 'image25.jpeg', title: 'Flange'},
+    { img: 'image35.jpeg', title: 'Coupling'},
+    { img: 'image32.jpeg', title: 'Safety Cabinet'},
+    { img: 'image28.png', title: 'Hydrant Coupling'},
+    { img: 'image29.png', title: 'Box APD'},
+    { img: 'picture2.jpg', title: 'Industrial Pump'},
+    { img: 'image42.png', title: 'Hydrant Hose'},
+    { img: 'image39.jpeg', title: 'PVC Pipe'},
+    { img: 'image26.jpeg', title: 'Industrial Scale'},
+    { img: 'image32.jpeg', title: 'Chemical Spray'},
+    { img: 'image36.jpeg', title: 'Packing'},
+    { img: 'image37.jpeg', title: 'Auto Travo'},
+    { img: 'image38.jpeg', title: 'Electrical'},
+    { img: 'image40.jpeg', title: 'Rachet Binder W/Hook'},
+    { img: 'image41.jpeg', title: 'Lever Hoist Chain Block'},
+    { img: 'image44.png', title: 'Spare Part Dump Truck'},
+    { img: 'image45.png', title: 'Spare Part Bull Dozer'},
+    { img: 'image46.png', title: 'Spare Part Wheel Loader'},
+    { img: 'image47.png', title: 'Spare Part Motor Grader'},
+    { img: 'picture3.jpg', title: 'Construction Materials'},
+    { img: 'picture4.jpg', title: 'Building Materials'},
+    { img: 'picture5.jpg', title: 'Road Maintenance Materials'},
+    { img: 'image22.jpeg', title: 'Transportation support services'},
+    { img: 'image27.png', title: 'Transportation support services'},
+  ]
+
   return (
     <>
       <Header />
@@ -66,10 +112,10 @@ export default function Services() {
             <div className="row" data-aos="fade-up" data-aos-delay="200">
               <div className="col-md-12">
                 <div className="icon-box">
-                  <i className="bi bi-box-fill"></i>
-                  <h4>A. General Supplier
+                  <i className="bi bi-people-fill"></i>
+                  <h4>Our Team
                   <div className="section-title" style={{marginTop: 20}}>
-                          <h2>Conveyor System Parts</h2>
+                          <h2>Our Team on Working</h2>
                         </div>
                   </h4>
                   <div className="col-md-12">
@@ -80,119 +126,26 @@ export default function Services() {
                         <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="200" style={{position: 'relative'}}>
 
                           <div className="col-lg-4 col-md-6 portfolio-item filter-product">
-                            <img src="assets/img/app/image5.png" className="img-fluid" alt="" />
+                            <img src="assets/img/app/on-goal.png" className="img-fluid" alt="" />
                             <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image5.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
+                              <h4>Team Work</h4>
+                              <a href="assets/img/app/on-goal.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link details-link" title="Team Work"><i className="bx bx-plus"></i></a>
                             </div>
                           </div>
 
                           <div className="col-lg-4 col-md-6 portfolio-item filter-product">
-                            <img src="assets/img/app/image6.png" className="img-fluid" alt="" />
+                            <img src="assets/img/app/team-work.png" className="img-fluid" alt="" />
                             <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image6.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
+                              <h4>One Goal</h4>
+                              <a href="assets/img/app/team-work.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link details-link" title="One Goal"><i className="bx bx-plus"></i></a>
                             </div>
                           </div>
 
                           <div className="col-lg-4 col-md-6 portfolio-item filter-product">
-                            <img src="assets/img/app/image6.png" className="img-fluid" alt="" />
+                            <img src="assets/img/app/partner.png" className="img-fluid" alt="" />
                             <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image6.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item filter-product">
-                            <img src="assets/img/app/image7.png" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image7.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item filter-product">
-                            <img src="assets/img/app/image8.png" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image8.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item filter-product">
-                            <img src="assets/img/app/image9.png" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image9.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item filter-product">
-                            <img src="assets/img/app/image10.png" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image10.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item filter-product">
-                            <img src="assets/img/app/image11.png" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image11.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item filter-product">
-                            <img src="assets/img/app/image12.png" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image12.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item filter-product">
-                            <img src="assets/img/app/image13.png" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image13.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item filter-product">
-                            <img src="assets/img/app/image14.png" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image14.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item filter-product">
-                            <img src="assets/img/app/image15.png" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image15.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item filter-product">
-                            <img src="assets/img/app/image16.png" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image16.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
+                              <h4>Business Partner Services</h4>
+                              <a href="assets/img/app/partner.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link details-link" title="Business Partner Services"><i className="bx bx-plus"></i></a>
                             </div>
                           </div>
 
@@ -207,10 +160,10 @@ export default function Services() {
               
               <div className="col-md-12">
                 <div className="icon-box">
-                  <i className="bi bi-bus-front"></i>
-                  <h4>B. Transportation Service
+                  <i className="bi bi-box-fill"></i>
+                  <h4>B. General Material Suppliers 
                   <div className="section-title" style={{marginTop: 20}}>
-                          <h2>Transportations</h2>
+                          <h2>We also support General Material Supplies</h2>
                         </div>
                   </h4>
                   <div className="col-md-12">
@@ -220,184 +173,17 @@ export default function Services() {
 
                         <div className="row portfolio-container portfolio-container2" data-aos="fade-up" data-aos-delay="200" style={{position: 'relative'}}>
 
-                          <div className="col-lg-4 col-md-6 portfolio-item portfolio-item2 filter-app">
-                            <img src="assets/img/app/image44.png" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Transportation Service</h4>
-                              <a href="assets/img/app/image44.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Transportation Service"><i className="bx bx-plus"></i></a>
-                              <a className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item portfolio-item2 filter-web">
-                            <img src="assets/img/app/image45.png" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Transportation Service</h4>
-                              <a href="assets/img/app/image45.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Transportation Service"><i className="bx bx-plus"></i></a>
-                              <a className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item portfolio-item2 filter-app">
-                            <img src="assets/img/app/image46.png" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Transportation Service</h4>
-                              <a href="assets/img/app/image46.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Transportation Service"><i className="bx bx-plus"></i></a>
-                              <a className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item portfolio-item2 filter-app">
-                            <img src="assets/img/app/image47.png" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Transportation Service</h4>
-                              <a href="assets/img/app/image47.png" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Transportation Service"><i className="bx bx-plus"></i></a>
-                              <a className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                        </div>
-
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-
-
-              
-              <div className="col-md-12">
-                <div className="icon-box">
-                  <i className="bi bi-hammer"></i>
-                  <h4>C. Civil Construction
-                  <div className="section-title" style={{marginTop: 20}}>
-                          <h2>Office Building</h2>
-                        </div>
-                  </h4>
-                  <div className="col-md-12">
-                    
-                    <div id="portfolio" className="portfolio">
-                      <div className="container" data-aos="fade-up">
-
-                        <div className="row portfolio-container portfolio-container3" data-aos="fade-up" data-aos-delay="200" style={{position: 'relative'}}>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item portfolio-item3 filter-product">
-                            <img src="assets/img/app/image4.jpeg" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image4.jpeg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item portfolio-item3 filter-product">
-                            <img src="assets/img/app/image6.jpeg" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image6.jpeg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item portfolio-item3 filter-product">
-                            <img src="assets/img/app/image17.jpeg" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image17.jpeg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item portfolio-item3 filter-product">
-                            <img src="assets/img/app/image24.jpeg" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image24.jpeg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item portfolio-item3 filter-product">
-                            <img src="assets/img/app/image25.jpeg" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image25.jpeg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item portfolio-item3 filter-product">
-                            <img src="assets/img/app/image30.jpeg" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image30.jpeg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item portfolio-item3 filter-product">
-                            <img src="assets/img/app/image31.jpeg" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image31.jpeg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item portfolio-item3 filter-product">
-                            <img src="assets/img/app/image34.jpeg" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image34.jpeg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item portfolio-item3 filter-product">
-                            <img src="assets/img/app/image35.jpeg" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image35.jpeg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item portfolio-item3 filter-product">
-                            <img src="assets/img/app/image38.jpeg" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image38.jpeg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item portfolio-item3 filter-product">
-                            <img src="assets/img/app/image39.jpeg" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image39.jpeg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item portfolio-item3 filter-product">
-                            <img src="assets/img/app/image40.jpeg" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image40.jpeg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6 portfolio-item portfolio-item3 filter-product">
-                            <img src="assets/img/app/image41.jpeg" className="img-fluid" alt="" />
-                            <div className="portfolio-info">
-                              <h4>Our Products</h4>
-                              <a href="assets/img/app/image41.jpeg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Our Products"><i className="bx bx-plus"></i></a>
-                              <a href="./services" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                            </div>
-                          </div>
+                          {
+                            _supplies?.map(data => (
+                              <div key={data?.title} className="col-lg-4 col-md-6 portfolio-item portfolio-item2 filter-app">
+                                <img src={"assets/img/app/" + data?.img} className="img-fluid" alt="" />
+                                <div className="portfolio-info">
+                                  <h4>{data?.title}</h4>
+                                  <a href={"assets/img/app/" + data?.img} data-gallery="portfolioGallery" className="portfolio-lightbox preview-link details-link" title={data?.title}><i className="bx bx-plus"></i></a>
+                                </div>
+                              </div>
+                            ))
+                          }
 
                         </div>
 
