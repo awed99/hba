@@ -1,0 +1,7 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/aris5618/public_html/repository/hba"
+PassengerBaseURI "/"
+PassengerNodejs "/home/aris5618/nodevenv/public_html/repository/hba/18/bin/node"
+PassengerAppType node
+PassengerStartupFile app.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END

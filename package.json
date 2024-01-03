@@ -7,7 +7,7 @@
     "build": "next build",
     "export": "next export",
     "start": "next start",
-    "start2": "node app.js --max-old-space-size=1000",
+    "start2": "NODE_ENV=production node app.js",
     "lint": "next lint"
   },
   "dependencies": {
@@ -16,10 +16,10 @@
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.15.2",
     "jquery": "^3.7.1",
-    "next": "^11.1.2",
+    "next": "^11.1.4",
     "postcss": "^7.0.39",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   },
   "devDependencies": {
