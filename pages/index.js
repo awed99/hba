@@ -18,7 +18,7 @@ export default function Home () {
             <div className="carousel-inner" role="listbox">
 
               {/* <!-- Slide 1 --> */}
-              <div className="carousel-item active" style={{backgroundImage: 'url(assets/img/slide/slide-1.jpg)'}}>
+              <div className="carousel-item active" style={{backgroundImage: 'url(assets/img/slide/1.jpg)'}}>
                 <div className="carousel-container">
                   <div className="carousel-content animate__animated animate__fadeInUp">
                     <h2>PT. Hidayat Bersaudara Abadi</h2>
@@ -28,7 +28,7 @@ export default function Home () {
               </div>
 
               {/* <!-- Slide 2 --> */}
-              <div className="carousel-item" style={{backgroundImage: 'url(assets/img/slide/slide-2.jpg)'}}>
+              <div className="carousel-item" style={{backgroundImage: 'url(assets/img/slide/2.jpg)'}}>
                 <div className="carousel-container">
                   <div className="carousel-content animate__animated animate__fadeInUp">
                     <h2>Visi PT. Hidayat Bersaudara Abadi</h2>
@@ -39,7 +39,7 @@ export default function Home () {
               </div>
 
               {/* <!-- Slide 3 --> */}
-              <div className="carousel-item" style={{backgroundImage: 'url(assets/img/slide/slide-3.jpg)'}}>
+              <div className="carousel-item" style={{backgroundImage: 'url(assets/img/slide/3.jpg)'}}>
                 <div className="carousel-container">
                   <div className="carousel-content animate__animated animate__fadeInUp">
                     <h2>Misi PT. Hidayat Bersaudara Abadi</h2>
@@ -50,6 +50,69 @@ export default function Home () {
                     <p>Mensinergikan komponen komponen Perusahaan untuk menghasilkan nilai tambah</p>
                     <p>Memiliki komitmen untuk meningkatkan pertumbuhan usaha yang berkesinambungan,
                       kesejahteraan stakeholders, dan senantiasa meningkatkan tanggung jawab sosial</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* <!-- Slide 4 --> */}
+              <div className="carousel-item" style={{backgroundImage: 'url(assets/img/slide/4.jpg)'}}>
+                <div className="carousel-container">
+                  <div className="carousel-content animate__animated animate__fadeInUp">
+                    <h2>PT. Hidayat Bersaudara Abadi</h2>
+                  </div>
+                </div>
+              </div>
+
+              {/* <!-- Slide 5 --> */}
+              <div className="carousel-item" style={{backgroundImage: 'url(assets/img/slide/5.jpg)'}}>
+                <div className="carousel-container">
+                  <div className="carousel-content animate__animated animate__fadeInUp">
+                    <h2>PT. Hidayat Bersaudara Abadi</h2>
+                  </div>
+                </div>
+              </div>
+
+              {/* <!-- Slide 6 --> */}
+              <div className="carousel-item" style={{backgroundImage: 'url(assets/img/slide/6.jpg)'}}>
+                <div className="carousel-container">
+                  <div className="carousel-content animate__animated animate__fadeInUp">
+                    <h2>PT. Hidayat Bersaudara Abadi</h2>
+                  </div>
+                </div>
+              </div>
+
+              {/* <!-- Slide 7 --> */}
+              <div className="carousel-item" style={{backgroundImage: 'url(assets/img/slide/7.jpg)'}}>
+                <div className="carousel-container">
+                  <div className="carousel-content animate__animated animate__fadeInUp">
+                    <h2>PT. Hidayat Bersaudara Abadi</h2>
+                  </div>
+                </div>
+              </div>
+
+              {/* <!-- Slide 8 --> */}
+              <div className="carousel-item" style={{backgroundImage: 'url(assets/img/slide/8.jpg)'}}>
+                <div className="carousel-container">
+                  <div className="carousel-content animate__animated animate__fadeInUp">
+                    <h2>PT. Hidayat Bersaudara Abadi</h2>
+                  </div>
+                </div>
+              </div>
+
+              {/* <!-- Slide 9 --> */}
+              <div className="carousel-item" style={{backgroundImage: 'url(assets/img/slide/9.jpg)'}}>
+                <div className="carousel-container">
+                  <div className="carousel-content animate__animated animate__fadeInUp">
+                    <h2>PT. Hidayat Bersaudara Abadi</h2>
+                  </div>
+                </div>
+              </div>
+
+              {/* <!-- Slide 10 --> */}
+              <div className="carousel-item" style={{backgroundImage: 'url(assets/img/slide/10.jpg)'}}>
+                <div className="carousel-container">
+                  <div className="carousel-content animate__animated animate__fadeInUp">
+                    <h2>PT. Hidayat Bersaudara Abadi</h2>
                   </div>
                 </div>
               </div>
