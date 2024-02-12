@@ -15,13 +15,14 @@ export default function Footer() {
                     <h3>PT Hidayat Bersaudara Abadi (HBA)</h3>
                     <div>
                       <p>
-                        - Jl. Masjid Al Mujahidin RT. 003 RW 01 No.100, Kel. Jatirahayu Kec. Pondok Gede, Kota Bekasi, 17414, Jabar
+                        - Jl. Masjid Al Mujahidin RT. 003 RW 01 No.100, Kel. Jatirahayu Kec. Pondok Melati, Kota Bekasi, 17414, Jabar
                       </p><br/>
                       <p>
                         - Komplek Grand City, Forest ville K12 No. 23, Jl. MT Haryono Balikpapan, Kaltim
                       </p>
                       <br/>
-                      <strong>Phone:</strong> 0812 1282 3030<br/>
+                      <strong>Phone 1:</strong> 0812 1282 3030<br/>
+                      <strong>Phone 2:</strong> 0812 9541 7419<br/>
                       <strong>Email:</strong> admin@hidayatbersaudaraabadi.com<br/>
                     </div>
                     <div className="social-links mt-3">

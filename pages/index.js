@@ -137,7 +137,7 @@ export default function Home () {
         <section id="about" className="about">
           <div className="container" data-aos="fade-up">
 
-            <div className="row justify-content-end">
+            {/* <div className="row justify-content-end">
               <div className="col-lg-11">
                 <div className="row justify-content-end">
 
@@ -175,7 +175,7 @@ export default function Home () {
 
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="row">
 

@@ -31,7 +31,7 @@ export default function ContactUs() {
                   <div className="info-box">
                     <i className="bx bx-map"></i>
                     <h3>Our Address</h3>
-                    <p>Jl. Masjid Al Mujahidin RT. 003 RW 01 No.100 (Depan Plaza Pondok Gede)  Kel. Jatirahayu Kec. Pondok, Kota Bekasi, 17414, Jabar</p>
+                    <p>Jl. Masjid Al Mujahidin RT. 003 RW 01 No.100, Kel. Jatirahayu Kec. Pondok Melati, Kota Bekasi, 17414, Jawa Barat</p>
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -46,6 +46,7 @@ export default function ContactUs() {
                     <i className="bx bx-phone-call"></i>
                     <h3>Call Us</h3>
                     <p>0812 1282 3030</p>
+                    <p>0812 9541 7419</p>
                   </div>
                 </div>
               </div>
